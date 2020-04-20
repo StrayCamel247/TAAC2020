@@ -12,7 +12,7 @@ models/export/variables/*.data-00001-of-00002
 models/export/variables/*.index
 models/checkpoints/checkpoint/*.index
 # 不上传数据集，将数据集都打包成zip再上传
-data/*
-!data/*.zip
+Data/*
+!Data/*.zip
 # python环境
 venv/
